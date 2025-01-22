@@ -3,6 +3,8 @@ import '/src/features/home/home_screen.dart';
 import '/src/features/splash/splash_screen.dart';
 
 class PetBuddyApp extends StatelessWidget {
+  const PetBuddyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
